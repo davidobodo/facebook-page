@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My facebook</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		#header{background-color: #3b5998;
+				color: white;}
+		#header_inner{width: 1000px;
+						margin-right: auto;
+						margin-left: auto;
+						}
+		#content{background-color: #e0e4ef;}
+		#content_inner{width: 1000px;
+						margin-right: auto;
+						margin-left: auto;
+						}		
+		#footer_inner{width: 1000px;
+						margin-right: auto;
+						margin-left: auto;
+						}		
+		a:link{text-decoration: none;
+				color: #365899;}	
+		
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div id="header_inner">
+			<div id="logo" 
+				style="width: 500px;
+				float: left;">
+				<h1 style="font-family: sans-serif;padding-top: 30px;
+				">facebook</h1>
+			</div>
+			<div id="log_in_details" style="width: 350px;float: left;margin-left: 150px;">
+					<div id="log_in_details_inner">
+						<div 
+						style="float: left;padding-top: 10px;margin-right: 10px;">
+							<label>Email or phone</label>
+							<input type="text" name="Email or phone" 
+							style="display: block;width: 140px;">
+						</div>
+						<div 
+							style="float: left;padding-top: 10px;margin-right: 10px;">
+							<label>Password</label>
+							<input type="Password" name="Password" style="display: block;width: 140px;">
+							<a href="#" style="color: #9cb4c4;">Forgotten account?</a>
+						</div>
+						<div style="padding-top: 25px;">
+							<a href="#" style="color: #9cb4c4;">Log in</a>
+						</div>	
+					</div>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+
+	<div id="content">
+		<div id="content_inner">
+			<div style="float: left;width: 500px; padding-top: 50px; margin-right: 100px;">
+				<h2>Facebook helps you connect and share with the people in your life</h2>
+				<img src="capture.jpg">
+			</div>
+			<div style="float: left;width: 400px; padding-top: 40px;">
+				<h1 style="padding-bottom: 10px;">Create an account</h1>
+				<h3 style="padding-bottom: 10px;">It's free and always be.</h3>
+				<div style="padding-bottom: 10px;">
+					<input type="text" name="first name" placeholder=" First name" style="margin-right: 28px;width: 180px; font-size: 20px;border-radius: 6px;">
+					<input type="text" name="surname" placeholder=" Surname" style="width: 180px;font-size: 20px;border-radius: 6px;">
+				</div>
+				<input type="text" name="mobile number or email address" placeholder=" Mobile number or email address" style="margin-bottom: 10px;font-size: 20px;width: 398px;border-radius: 6px;">
+				<input type="Password" name="new Password" placeholder=" New password" style="display: block;margin-bottom: 10px;font-size: 20px;width: 398px;border-radius: 6px;">
+				<div>
+					<div>
+						<label>Birthday</label>
+					</div>
+					<div style="margin-top: 10px;float: left; margin-right: 25px;">
+						<select id="day">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22" selected="selected">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select><select id="month">
+						<option value="Jan">Jan</option>
+						<option value="Feb">Feb</option>
+						<option value="Mar">Mar</option>
+						<option value="Apr">Apr</option>
+						<option value="May">May</option>
+						<option value="Jun">Jun</option>
+						<option value="Jul" selected="selected">Jul</option>
+						<option value="Aug">Aug</option>
+						<option value="Sep">Sep</option>
+						<option value="Oct">Oct</option>
+						<option value="Nov">Nov</option>
+						<option value="Dec">Dec</option>
+					</select><select id="year">
+						<option value="2005">2005</option>
+						<option value="2006" selected="selected">2006</option>
+					</select>  
+					</div>
+					<div style="width: 320px;">
+						<a href="#" style="font-size: 0.75em;">Why do i need to provide my date of birth?</a>
+					</div>
+					
+				</div>
+				<div style="margin-top: 20px;margin-bottom: 20px;">
+					<input type="radio" name="radioset" value="female">
+					<label for="Female" style="margin-right: 20px;">Female</label>
+					<input type="radio" name="radioset" value="Male" checked="checked">
+					<label for="Male">Male</label>
+					
+				</div>
+				<p style="font-size: 0.75em;width: 320px;">By clicking sign up, you agree to our <a href="#">Terms</a>,<a href="#">Data Policy</a> and <a href="#">Cookie Policy.</a>You may receive SMS notifications from us and can opt out at any time.</p>
+				<div style="margin-top: 20px;margin-bottom: 20px;">
+					<input type="submit" name="sign up" value="sign up">
+				</div>
+				<strong style="margin-bottom: 30px;"><a href="#">Create a Page</a> for a celebrity, band or business</strong>
+			</div>
+			<div style="clear: both;margin-bottom: 30px;"></div>
+		</div>
+	</div>
+
+	<div id="footer" style="clear: both;">
+		<div id="footer_inner">
+			<div style="padding-bottom: 20px;">
+				<a href="#">English(UK)</a>&nbsp;
+				<a href="#">Hausa</a>&nbsp;
+				<a href="#">Francais (France)</a>&nbsp;
+				<a href="#">Portugues (Brasil)</a>&nbsp;
+				<a href="#">Espanol</a>&nbsp;
+				<a href="#">Arabic</a>&nbsp;
+				<a href="#">Bahasa</a>&nbsp;&nbsp;
+				<a href="#">Indonesia</a>&nbsp;
+				<a href="#">Deutsch</a>&nbsp;
+				<a href="#">jagajaga</a>&nbsp;
+				<a href="#">italiano</a>&nbsp;
+			</div>
+			
+			<hr>
+			<div style="padding-top: 20px;">
+				<a href="#">sign up</a>&nbsp;
+			<a href="#">log in</a>&nbsp;
+			 <a href="#">messenger</a>&nbsp;
+			 <a href="#">facebook lite</a>&nbsp;
+			 <a href="#">mobile</a>&nbsp;
+			 <a href="#">find friends</a>&nbsp;
+			 <a href="#">people</a>&nbsp;
+			 <a href="#">profiles</a>&nbsp;
+			 <a href="#">pages</a>&nbsp;
+			 <a href="#">instagram</a>&nbsp;
+			 <a href="#">page categories</a>&nbsp;
+			 <a href="#">places</a>&nbsp;
+			 <a href="#">games</a>&nbsp;
+			<br>
+			<a href="#">locations</a>&nbsp;
+			<a href="#">marketplace</a>&nbsp;
+			<a href="#">groups</a>&nbsp;
+			<a href="#">local</a>&nbsp;
+			<a href="#">about</a>&nbsp;
+			<a href="#">create ad</a>&nbsp;
+			<a href="#">create page</a>&nbsp;
+			<a href="#">developers</a>&nbsp;
+			<a href="#">careers</a>&nbsp;
+			<a href="#">privacy</a>&nbsp;
+			<a href="#">cookies</a>&nbsp;
+			<a href="#">adchoices</a>&nbsp;
+			<a href="#">terms</a>&nbsp;
+			<br>
+			<a href="#">account security</a>&nbsp;
+			<a href="#">login help</a>&nbsp;
+			<a href="#">help</a>&nbsp;s
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

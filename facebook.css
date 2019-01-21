@@ -51,3 +51,37 @@ float: left;width: 400px; padding-top: 40px;
 div.sign_up_side>input{
 	margin-bottom: 10px;font-size: 20px;width: 398px;border-radius: 6px;
 }
+.date_of_birth{
+	margin-top: 10px;float: left; margin-right: 25px;
+}
+div.date_of_birth+div{
+	width: 320px;
+}
+.radiobuttons{
+	margin-top: 20px;margin-bottom: 20px;
+}
+div.sign_up_side p{
+	font-size: 0.75em;width: 320px;
+}
+.some_space_under{
+	margin-bottom: 30px;
+}
+.link1{padding-bottom: 20px;}
+
+.link2{padding-top: 20px;}
+
+.firstname{
+	margin-right: 28px;width: 180px; font-size: 20px;border-radius: 6px;
+}
+.surname{
+	width: 180px;font-size: 20px;border-radius: 6px;
+}
+.sign_up_button{
+	margin-top: 20px;margin-bottom: 20px;
+}
+.femaleradio{
+	margin-right: 20px;
+}
+.speciallink{
+	font-size: 0.75em;
+}

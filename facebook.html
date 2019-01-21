@@ -40,8 +40,8 @@
 				<h1>Create an account</h1>
 				<h3>It's free and always be.</h3>
 				<div>
-					<input type="text" name="first name" placeholder=" First name" style="margin-right: 28px;width: 180px; font-size: 20px;border-radius: 6px;">
-					<input type="text" name="surname" placeholder=" Surname" style="width: 180px;font-size: 20px;border-radius: 6px;">
+					<input type="text" name="first name" placeholder=" First name"class="firstname">
+					<input type="text" name="surname" placeholder=" Surname" class="surname">
 				</div>
 				<input type="text" name="mobile number or email address" placeholder=" Mobile number or email address">
 				<input type="Password" name="new Password" placeholder=" New password">
@@ -49,7 +49,7 @@
 					<div>
 						<label>Birthday</label>
 					</div>
-					<div style="margin-top: 10px;float: left; margin-right: 25px;">
+					<div class="date_of_birth">
 						<select id="day">
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -100,31 +100,30 @@
 						<option value="2006" selected="selected">2006</option>
 					</select>  
 					</div>
-					<div style="width: 320px;">
-						<a href="#" style="font-size: 0.75em;">Why do i need to provide my date of birth?</a>
+					<div>
+						<a href="#" class="speciallink">Why do i need to provide my date of birth?</a>
 					</div>
 					
 				</div>
-				<div style="margin-top: 20px;margin-bottom: 20px;">
+				<div class="radiobuttons">
 					<input type="radio" name="radioset" value="female">
-					<label for="Female" style="margin-right: 20px;">Female</label>
+					<label for="Female" class="femaleradio">Female</label>
 					<input type="radio" name="radioset" value="Male" checked="checked">
-					<label for="Male">Male</label>
-					
+					<label for="Male">Male</label> 
 				</div>
-				<p style="font-size: 0.75em;width: 320px;">By clicking sign up, you agree to our <a href="#">Terms</a>,<a href="#">Data Policy</a> and <a href="#">Cookie Policy.</a>You may receive SMS notifications from us and can opt out at any time.</p>
-				<div style="margin-top: 20px;margin-bottom: 20px;">
+				<p>By clicking sign up, you agree to our <a href="#">Terms</a>,<a href="#">Data Policy</a> and <a href="#">Cookie Policy.</a>You may receive SMS notifications from us and can opt out at any time.</p>
+				<div class="sign_up_button">
 					<input type="submit" name="sign up" value="sign up">
 				</div>
-				<strong style="margin-bottom: 30px;"><a href="#">Create a Page</a> for a celebrity, band or business</strong>
+				<strong class="some_space_under"><a href="#">Create a Page</a> for a celebrity, band or business</strong>
 			</div>
-			<div style="margin-bottom: 30px;" class="float_solver"></div>
+			<div class="float_solver some_space_under"></div>
 		</div>
 	</div>
 
 	<div id="footer" class="float_solver">
 		<div id="footer_inner">
-			<div style="padding-bottom: 20px;">
+			<div class="link1">
 				<a href="#">English(UK)</a>&nbsp;
 				<a href="#">Hausa</a>&nbsp;
 				<a href="#">Francais (France)</a>&nbsp;
@@ -139,7 +138,7 @@
 			</div>
 			
 			<hr>
-			<div style="padding-top: 20px;">
+			<div class="link2">
 				<a href="#">sign up</a>&nbsp;
 			<a href="#">log in</a>&nbsp;
 			 <a href="#">messenger</a>&nbsp;

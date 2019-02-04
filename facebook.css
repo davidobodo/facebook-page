@@ -5,7 +5,7 @@
 						margin-right: auto;
 						margin-left: auto;
 						}
-		#content{background-color: #e0e4ef;}
+		#content{background: linear-gradient(white, #D3D8E8);}
 		#content_inner{width: 1000px;
 						margin-right: auto;
 						margin-left: auto;
@@ -64,7 +64,16 @@ float: left;width: 400px; padding-top: 40px;
 .sign_up_side h1, h3, h3+div{padding-bottom: 10px;}
 
 div.sign_up_side>input{
-	margin-bottom: 10px;font-size: 20px;width: 398px;border-radius: 6px;
+	margin-bottom: 10px;
+width: 398px;
+border-radius: 6px;
+width: 375px;
+font-size: 16px;
+border-radius: 5px;
+padding: 8px 10px;
+border-color: #bdc7d8;
+border: 1px solid #bdc7d8;
+font-family: helvetica;
 }
 .date_of_birth{
 	margin-top: 10px;float: left; margin-right: 25px;
@@ -86,10 +95,22 @@ div.sign_up_side p{
 .link2{padding-top: 20px;}
 
 .firstname{
-	margin-right: 28px;width: 180px; font-size: 20px;border-radius: 6px;
+width: 175px;
+font-size: 16px;
+border-radius: 5px;
+padding: 8px 10px;
+border-color: #bdc7d8;
+border: 1px solid #bdc7d8;
+font-family: helvetica;
 }
 .surname{
-	width: 180px;font-size: 20px;border-radius: 6px;
+width: 175px;
+font-size: 16px;
+border-radius: 5px;
+padding: 8px 10px;
+border-color: #bdc7d8;
+border: 1px solid #bdc7d8;
+font-family: helvetica;
 }
 .sign_up_button{
 	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
@@ -115,3 +136,7 @@ div.sign_up_side p{
 	font-size: 0.75em;
 }
 
+select{font-size: 13px;
+height: 30px;
+padding: 5px;
+border: 1px solid #bdc7d8;}
